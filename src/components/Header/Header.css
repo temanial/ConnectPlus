@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    height: 70px;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-bottom: 1px solid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.header-container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_header {
+    color: #333333;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.plus {
+    color: #7B7B7B;
+}
+
+.header-pages a {
+    color: #333333;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.header-menu li {
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.header-menu li a {
+    transition: font-weight, font-size 0.1s ease-in-out;
+}
+
+.header-menu li a:hover {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.user {
+    padding-top: 8px;
+}

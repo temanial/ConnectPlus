@@ -1,0 +1,54 @@
+.sect5 {
+    background-color: #272727;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.footer-container {
+    display: flex  ;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.spisok {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.list-name {
+    color: white;
+    font-size: 20px;
+
+}
+
+.spisok p {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.spisok li a {
+    text-decoration: none;
+}
+
+.spisok li p:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.spisok li p {
+    color: #7B7B7B;
+    transition: color 0.3s;
+}
+
+.spisok ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7B7B7B;
+}

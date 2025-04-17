@@ -1,7 +1,9 @@
 import React from 'react'
+import { Link, useLocation } from 'react-router-dom';
 import './Footer.css'
 
 export default function Footer() {
+      const location = useLocation();
   return (
     <div>
         <section className="sect5">
@@ -34,6 +36,11 @@ export default function Footer() {
                             </li>
                         </ul>
                     </div>
+                </div>
+                <div>
+                    {location.pathname !== '/AboutUs' && (
+                        <p><Link to="/AboutUs"  className='info'>О нас</Link></p>
+                    )} 
                 </div>
                 <div className="copyright">
                     <p>© В. С. Старостин, 2025</p>

@@ -52,3 +52,17 @@
     align-items: center;
     color: #7B7B7B;
 }
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7B7B7B;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.info:hover {
+    text-decoration: none;
+    color: #ffffff;
+}

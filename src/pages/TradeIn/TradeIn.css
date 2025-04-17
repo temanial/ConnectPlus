@@ -1,0 +1,132 @@
+.section-servis {
+    background-size: cover;
+}
+
+.section4 {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10% 5% 10% 5%;
+}
+
+.trade-in-text {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.title-trade-in {
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0;
+    color: #171717;
+}
+
+.subtitle-trade-in {
+    color: #171717;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.subtitle-trade-in2 {
+    color: #171717;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.trade-in-text ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.subtitle-li {
+    color: #171717;
+    font-size: 20px;
+}
+
+.super-btn-container {
+    background-color: #1b1b1b;
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.super-btn {
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px white solid;
+    height: 20px;
+    text-decoration: none;
+}
+
+.super-btn p {
+    margin: 0;
+    color: white;
+    transition: color 0.3s;
+}
+
+.super-btn4 {
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 20px;
+}
+
+.super-btn4 p {
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.super-btn a {
+    text-decoration: none;
+}
+
+.super-btn4 a {
+    text-decoration: none;
+}
+
+.super-btn p:hover {
+    margin: 0;
+    color: #707070;
+}
+
+.subtitle-trade-in a {
+    color: #171717;
+    display: none;
+}
+
+.super-btn4 p:hover {
+    margin: 0;
+    text-decoration: none;
+    color: #707070;
+}
+
+.cs4-image-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.map {
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    border: none;
+}
+
+.map-container {
+    display: flex;
+    justify-content: flex-end;
+}

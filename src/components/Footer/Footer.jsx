@@ -36,7 +36,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="copyright">
-                    <p>© В. С. Старостин, 2024</p>
+                    <p>© В. С. Старостин, 2025</p>
                 </div>
             </footer>
         </section>

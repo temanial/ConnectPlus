@@ -1,5 +1,6 @@
 import React from 'react'
 import './Homepage.css';
+import { Link } from 'react-router-dom';
 import people from '../../img/people/people1.png'
 import apple from '../../img/brand_logos/apple.png'
 import huawei from '../../img/brand_logos/huawei.png'
@@ -58,7 +59,7 @@ export default function Homepage() {
                     <p className="title-sect3">Сервисный центр</p>
                     <p className="subtitle-sect3">Устраним любую техничекскую неисправность</p>
                     <div className="servis-btn">
-                        <p><a className="servis" href="pages/servis.html">Подробнее</a></p>
+                        <p><Link to="/ServiceCenter"><a className="servis">Подробнее</a></Link></p>
                     </div>
                 </div>
                 <div className="sc3-text-container">
@@ -86,7 +87,7 @@ export default function Homepage() {
                     <p className="title-sect4">Trade-in</p>
                     <p className="subtitle-sect4">Сдай старый смартфон и получи скидку на новый</p>
                     <div className="trade-in-btn">
-                        <p><a className="trade-in" href="pages/trade-in.html">Побробнее</a></p>
+                        <p><Link to="/TradeIn"><a className="servis">Подробнее</a></Link></p>
                     </div>
                 </div>
                 <div className="cs4-image-container">
